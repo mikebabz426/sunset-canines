@@ -1,0 +1,25 @@
+{
+  "name": "sunset-canines",
+  "version": "1.0.0",
+  "description": "Sunset Canines main webpage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "\u0016https://github.com/mikebabz426/sunset-canines.git"
+  },
+  "keywords": [
+    "canines",
+    "dogs",
+    "training"
+  ],
+  "author": "Mike Babetchki",
+  "license": "ISC",
+  "dependencies": {
+    "gatsby": "^2.24.37",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
