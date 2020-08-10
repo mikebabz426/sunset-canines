@@ -1,25 +1,32 @@
 {
-  "name": "sunset-canines",
-  "version": "1.0.0",
-  "description": "Sunset Canines main webpage",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "\u0016https://github.com/mikebabz426/sunset-canines.git"
-  },
-  "keywords": [
-    "canines",
-    "dogs",
-    "training"
-  ],
-  "author": "Mike Babetchki",
-  "license": "ISC",
-  "dependencies": {
-    "gatsby": "^2.24.37",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1"
-  }
+	"name": "sunset-canines",
+	"version": "1.0.0",
+	"description": "Sunset Canines main webpage",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/mikebabz426/sunset-canines.git"
+	},
+	"keywords": [
+		"canines",
+		"dogs",
+		"training",
+		"gatsby"
+	],
+	"author": "Mike Babetchki",
+	"license": "ISC",
+	"dependencies": {
+		"gatsby": "^2.24.37",
+		"gatsby-plugin-sass": "^2.3.12",
+		"gatsby-source-filesystem": "^2.3.24",
+		"node-sass": "^4.14.1",
+		"react": "^16.13.1",
+		"react-dom": "^16.13.1"
+	},
+	"devDependencies": {
+		"prettier": "2.0.5"
+	}
 }
