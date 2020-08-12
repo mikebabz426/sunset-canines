@@ -1,8 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto&display=swap");
 $primaryColor: #ff9933;
 $secondaryColor: #ff3366;
 
 * {
-  color: $secondaryColor;
   margin: 0;
   padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.hero h1 {
+  text-align: center;
+  margin-top: 8rem;
+  margin-bottom: 3rem;
+  color: #f4f4f4;
+  font-family: "Montserrat", sans-serif;
+  font-size: 4rem;
+}
+
+.hero {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  width: 100%;
+  height: 95vh;
 }
