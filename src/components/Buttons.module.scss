@@ -11,9 +11,18 @@ $secondaryColor: #ff3366;
   border-bottom-left-radius: 0.5rem;
   font-family: "Montserrat", sans-serif;
   font-size: 1.5rem;
+  text-transform: capitalize;
+  outline: none;
+}
+
+.call-to-action:hover {
+  cursor: pointer;
+  transform: translateX(-0.1rem) translateY(-0.1rem);
+  background-color: #ff4170;
 }
 
 .secondary-button {
+  outline: none;
   color: $secondaryColor;
   background-color: #f4f4f4;
   padding: 1rem;
@@ -22,4 +31,10 @@ $secondaryColor: #ff3366;
   border-bottom-right-radius: 0.5rem;
   font-family: "Montserrat", sans-serif;
   font-size: 1.5rem;
+}
+
+.secondary-button:hover {
+  cursor: pointer;
+  transform: translateX(0.1rem) translateY(-0.1rem);
+  background-color: #ececec;
 }

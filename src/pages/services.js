@@ -4,7 +4,7 @@ import Layout from "../components/Layout"
 const ServicesPage = () => {
   return (
     <>
-      <Layout>
+      <Layout contrast="dark">
         <h1>Services Page</h1>
       </Layout>
     </>

@@ -1,12 +1,14 @@
 import React from "react"
-import Image from "gatsby-image"
+import LogoStyles from "./Logo.module.scss"
 
-const Logo = () => {
-  return (
-    <div>
-      <Image fluid={} />
-    </div>
-  )
+const Logo = ({ contrast }) => {
+  let logoClass
+  if (contrast === "light") {
+    logoClass = LogoStyles.lightLogo
+  } else {
+    logoClass = LogoStyles.darkLogo
+  }
+  return <div className={logoClass}></div>
 }
 
 export default Logo

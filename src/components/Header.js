@@ -1,29 +1,56 @@
 import React from "react"
 import { Link } from "gatsby"
 import HeaderStyles from "./Header.module.scss"
+import Logo from "./Logo"
 
-const Header = () => {
+const Header = ({ contrast }) => {
+  // const textColor = `HeaderStyles.${contrast}`
+  // console.log(textColor)
+
+  let textColor
+  if (contrast === "light") {
+    textColor = HeaderStyles.light
+  } else {
+    textColor = HeaderStyles.dark
+  }
+
   return (
     <div className={HeaderStyles.navbar}>
-      <h2 className={HeaderStyles.logo}>Logo Here</h2>
+      <Logo contrast={contrast} />
       <ul className={HeaderStyles.navLinks}>
         <li>
-          <Link to="/" activeClassName={HeaderStyles.active}>
+          <Link
+            to="/"
+            className={textColor}
+            activeClassName={HeaderStyles.active}
+          >
             Home
           </Link>
         </li>
         <li>
-          <Link to="/about" activeClassName={HeaderStyles.active}>
+          <Link
+            to="/about"
+            className={textColor}
+            activeClassName={HeaderStyles.active}
+          >
             About
           </Link>
         </li>
         <li>
-          <Link to="/services" activeClassName={HeaderStyles.active}>
+          <Link
+            to="/services"
+            className={textColor}
+            activeClassName={HeaderStyles.active}
+          >
             Services
           </Link>
         </li>
         <li>
-          <Link to="/contact" activeClassName={HeaderStyles.active}>
+          <Link
+            to="/contact"
+            className={textColor}
+            activeClassName={HeaderStyles.active}
+          >
             Contact
           </Link>
         </li>
