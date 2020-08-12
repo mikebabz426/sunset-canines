@@ -25,9 +25,9 @@ export default HomePage
 
 export const query = graphql`
   {
-    indexImage: file(relativePath: { eq: "hero2.jpg" }) {
+    indexImage: file(relativePath: { eq: "hero.jpg" }) {
       childImageSharp {
-        fluid {
+        fluid(quality: 100) {
           ...GatsbyImageSharpFluid
         }
       }
