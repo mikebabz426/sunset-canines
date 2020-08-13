@@ -4,9 +4,6 @@ import HeaderStyles from "./Header.module.scss"
 import Logo from "./Logo"
 
 const Header = ({ contrast }) => {
-  // const textColor = `HeaderStyles.${contrast}`
-  // console.log(textColor)
-
   let textColor
   if (contrast === "light") {
     textColor = HeaderStyles.light

@@ -1,0 +1,22 @@
+.card {
+  text-align: center;
+  width: 300px;
+  height: 500px;
+  margin: auto;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  background-color: #f4f4f4;
+  padding: 2rem;
+  border-radius: 5px;
+}
+
+.card h2 {
+  margin-bottom: 3rem;
+}
+
+.icon {
+  background-image: url("../icons/paws.svg");
+  margin: 3rem auto;
+  width: 4rem;
+  height: 4rem;
+}

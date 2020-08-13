@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 $primaryColor: #ff9933;
 $secondaryColor: #ff3366;
 
@@ -28,10 +29,87 @@ body {
   color: #f4f4f4;
   font-family: "Montserrat", sans-serif;
   font-size: 4rem;
-  max-width: 1560px;
+  max-width: 1440px;
 }
 
 .button-wrap {
   max-width: 20%;
   margin: 0 auto;
+}
+
+.showcase {
+  text-align: center;
+  margin: 5rem auto;
+}
+
+.showcase-heading {
+  margin: 3rem auto;
+}
+
+.showcase-heading h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+.showcase-heading h3 {
+  font-weight: 300;
+  font-size: 2rem;
+  font-style: italic;
+}
+
+.card-container {
+  margin: 1rem auto;
+  display: flex;
+  width: 1440px;
+  justify-items: center;
+  align-items: center;
+}
+
+.showcase-footer {
+  margin-top: 2rem;
+}
+
+.showcase-footer h3 {
+  font-weight: 300;
+  font-size: 2rem;
+  font-style: italic;
+}
+
+.showcase-btn {
+  outline: none;
+  color: $secondaryColor;
+  background-color: #f4f4f4;
+  padding: 1rem;
+  margin-top: 2rem;
+  border: 0.1rem solid $secondaryColor;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  border-radius: 0.5rem;
+}
+
+.showcase-btn:hover {
+  cursor: pointer;
+  transform: translateX(0.1rem) translateY(-0.1rem);
+  background-color: #fbe6ec;
+}
+
+.dog-background {
+  width: 100%;
+  background-attachment: fixed;
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.testimonials {
+  width: 1440px;
+  height: 40vh;
+  margin: 3rem auto;
+  text-align: center;
+}
+
+.testimonials h3 {
+  font-size: 3rem;
+  font-style: normal;
+  font-weight: 300;
 }
