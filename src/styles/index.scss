@@ -33,7 +33,10 @@ body {
 }
 
 .button-wrap {
-  max-width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
   margin: 0 auto;
 }
 
@@ -59,7 +62,7 @@ body {
 .card-container {
   margin: 1rem auto;
   display: flex;
-  width: 1440px;
+  max-width: 1440px;
   justify-items: center;
   align-items: center;
 }
@@ -69,6 +72,7 @@ body {
 }
 
 .showcase-footer h3 {
+  color: $secondaryColor;
   font-weight: 300;
   font-size: 2rem;
   font-style: italic;
@@ -99,17 +103,4 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-}
-
-.testimonials {
-  width: 1440px;
-  height: 40vh;
-  margin: 3rem auto;
-  text-align: center;
-}
-
-.testimonials h3 {
-  font-size: 3rem;
-  font-style: normal;
-  font-weight: 300;
 }

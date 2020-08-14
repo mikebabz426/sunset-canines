@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+$primaryColor: #ff9933;
+$secondaryColor: #ff3366;
+
+.main {
+  border-radius: 0.5rem;
+  background-color: #f4f4f4;
+  max-width: 1440px;
+  margin: 0 auto;
+  height: 80vh;
+}
+
+.container {
+  max-width: 1080px;
+  margin: 0 auto;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container h1 {
+  color: $secondaryColor;
+}
+
+.image {
+  border-radius: 0.5rem;
+  margin: 0 auto;
+  width: 20vw;
+  height: 40vh;
+}
+
+.text-area {
+  margin: 0 auto;
+  width: 20vw;
+  height: 40vh;
+  text-align: justify;
+  line-height: 1.5rem;
+}
+
+.text-area h2 {
+  font-size: 3rem;
+  font-variant: small-caps;
+  margin-bottom: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid $secondaryColor;
+}
+.text-area h2 span {
+  color: $secondaryColor;
+}

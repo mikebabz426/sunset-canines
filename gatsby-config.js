@@ -15,6 +15,13 @@ module.exports = {
         path: `${__dirname}/src/icons/`,
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `serviceImages`,
+        path: `${__dirname}/src/serviceImages/`,
+      },
+    },
     "gatsby-plugin-sass",
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",

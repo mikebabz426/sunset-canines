@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+$primaryColor: #ff9933;
+$secondaryColor: #ff3366;
+
+.testimonial {
+  display: flex;
+  align-items: center;
+  width: 50vw;
+  margin: 2rem auto;
+  padding: 1rem;
+  background-color: #f4f4f4;
+  border-radius: 0.5rem;
+}
+
+.image {
+  border-radius: 0.5rem;
+  width: 15rem;
+  height: 7rem;
+  margin: 2rem;
+}
+
+.text-container {
+  text-align: left;
+  line-height: 1.5rem;
+  text-justify: distribute-all-lines;
+}
+
+.text-container h4 {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
