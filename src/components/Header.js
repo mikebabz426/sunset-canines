@@ -12,47 +12,49 @@ const Header = ({ contrast }) => {
   }
 
   return (
-    <div className={HeaderStyles.navbar}>
-      <Logo contrast={contrast} />
-      <ul className={HeaderStyles.navLinks}>
-        <li>
-          <Link
-            to="/"
-            className={textColor}
-            activeClassName={HeaderStyles.active}
-          >
-            Home
-          </Link>
-        </li>
-        <li>
-          <Link
-            to="/about"
-            className={textColor}
-            activeClassName={HeaderStyles.active}
-          >
-            About
-          </Link>
-        </li>
-        <li>
-          <Link
-            to="/services"
-            className={textColor}
-            activeClassName={HeaderStyles.active}
-          >
-            Services
-          </Link>
-        </li>
-        <li>
-          <Link
-            to="/contact"
-            className={textColor}
-            activeClassName={HeaderStyles.active}
-          >
-            Contact
-          </Link>
-        </li>
-      </ul>
-    </div>
+    <nav className={HeaderStyles.navContainer}>
+      <div className={HeaderStyles.navbar}>
+        <Logo contrast={contrast} />
+        <ul className={HeaderStyles.navLinks}>
+          <li>
+            <Link
+              to="/"
+              className={textColor}
+              activeClassName={HeaderStyles.active}
+            >
+              Home
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="/about"
+              className={textColor}
+              activeClassName={HeaderStyles.active}
+            >
+              About
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="/services"
+              className={textColor}
+              activeClassName={HeaderStyles.active}
+            >
+              Services
+            </Link>
+          </li>
+          <li>
+            <Link
+              to="/contact"
+              className={textColor}
+              activeClassName={HeaderStyles.active}
+            >
+              Contact
+            </Link>
+          </li>
+        </ul>
+      </div>
+    </nav>
   )
 }
 
