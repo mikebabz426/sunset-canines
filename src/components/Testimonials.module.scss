@@ -14,9 +14,9 @@ $secondaryColor: #ff3366;
 }
 
 .image {
-  border-radius: 0.5rem;
-  width: 15rem;
-  height: 7rem;
+  border-radius: 50%;
+  min-width: 8rem;
+  min-height: 8rem;
   margin: 2rem;
 }
 

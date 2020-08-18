@@ -1,6 +1,8 @@
 import React from "react"
 import Layout from "../components/Layout"
 import Service from "../components/Service"
+import ServicesStyles from "../styles/Services.module.scss"
+import Card from "../components/Card"
 
 const ServicesPage = ({ data }) => {
   const { nodes } = data.allFile
@@ -8,6 +10,9 @@ const ServicesPage = ({ data }) => {
   return (
     <>
       <Layout contrast="dark">
+        <h1 className={ServicesStyles.heading}>
+          We offer a full spectrum of services
+        </h1>
         {nodes.map((item, i) => {
           let dir = i % 2 === 0 ? "left" : "right"
           console.log(dir)
@@ -32,6 +37,20 @@ const ServicesPage = ({ data }) => {
             />
           )
         })}
+        <div className={ServicesStyles.showcase}>
+          <h3>We travel around the country with clients all over the US</h3>
+        </div>
+        <section className={ServicesStyles.additional}>
+          <h3>Some of our additional services include</h3>
+          <div className={ServicesStyles.cards}>
+            <Card key="1" head="Scent Work" />
+            <Card key="2" head="Sports Training" />
+            <Card key="3" head="Bite Work" />
+            <Card key="4" head="Day Care" />
+            <Card key="5" head="Dock Diving Lessons" />
+            <Card key="6" head="Vacation Stays" />
+          </div>
+        </section>
       </Layout>
     </>
   )

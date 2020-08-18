@@ -1,17 +1,29 @@
+$primaryColor: #ff9933;
+$secondaryColor: #ff3366;
+
 .service {
   background-color: #f4f4f4;
   border-radius: 0.5rem;
   display: flex;
   justify-items: center;
   align-content: center;
-  max-width: 1440px;
+  max-width: 1080px;
   margin: 1rem auto;
-  padding: 1rem;
+  padding: 3rem;
 }
 
 .text-area {
   max-width: 30%;
   margin: auto;
+  text-align: justify;
+  line-height: 1.5rem;
+}
+
+.text-area h2 {
+  margin-bottom: 0.5rem;
+  padding-bottom: 1rem;
+  font-weight: 400;
+  border-bottom: 0.5px solid $primaryColor;
 }
 
 .image {
