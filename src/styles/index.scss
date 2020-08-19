@@ -132,14 +132,6 @@ body {
   }
 }
 
-@media (max-width: 768px) {
-  .hero h1 {
-    margin-top: 5rem;
-  }
-  .card-container {
-    margin: 1rem;
-  }
-}
 @media (max-width: 450px) {
   .hero h1 {
     font-size: 2rem;
@@ -148,8 +140,23 @@ body {
   .button-wrap {
     width: 18rem;
   }
+  .showcase-headings {
+    margin-bottom: 2rem;
+  }
+  .showcase-headings h2 {
+    font-size: 2.5rem;
+  }
+
+  .showcase-headings h3 {
+    font-size: 1.8rem;
+  }
 
   .card-container {
     flex-wrap: wrap;
+    margin: 0.5rem;
+  }
+
+  .dog-background {
+    height: 60vh;
   }
 }

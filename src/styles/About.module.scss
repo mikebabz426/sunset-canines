@@ -7,7 +7,7 @@ $secondaryColor: #ff3366;
   border-radius: 0.5rem;
   background-color: #f4f4f4;
   max-width: 1440px;
-  margin: 0 auto;
+  margin: 10vh auto 0 auto;
 }
 
 .container {
@@ -25,16 +25,17 @@ $secondaryColor: #ff3366;
 .image {
   border-radius: 0.5rem;
   margin: 0 auto;
-  width: 20vw;
-  height: 40vh;
+  width: 30rem;
+  height: 30rem;
 }
 
 .text-area {
   margin: 0 auto;
-  width: 20vw;
-  height: 40vh;
+  width: 30rem;
+  height: 30rem;
   text-align: justify;
   line-height: 1.5rem;
+  overflow: hidden;
 }
 
 .text-area h2 {
@@ -47,4 +48,60 @@ $secondaryColor: #ff3366;
 }
 .text-area h2 span {
   color: $secondaryColor;
+}
+
+@media screen and (max-width: 1024px) {
+  .container {
+    height: 70vh;
+  }
+  .image {
+    margin: 0 1rem 0 2rem;
+    width: 32rem;
+    height: 30rem;
+  }
+  .text-area {
+    margin: 0 2rem 0 1rem;
+    width: 32rem;
+    height: 30rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .container {
+    height: 65vh;
+  }
+  .image {
+    margin: 0 1rem 0 2rem;
+    width: 32rem;
+    height: 20rem;
+  }
+  .text-area {
+    margin: 0 2rem 0 1rem;
+    width: 32rem;
+    height: 20rem;
+  }
+  .text-area {
+    overflow: scroll;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .container {
+    flex-direction: column;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .image {
+    border-radius: 0;
+    margin: 0;
+    width: 100%;
+    height: 25rem;
+  }
+  .text-area {
+    padding: 0.5rem;
+    margin: 1rem;
+    width: 22rem;
+    height: 40rem;
+  }
 }

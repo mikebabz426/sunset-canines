@@ -14,7 +14,10 @@ const Service = ({ direction, name, src }) => {
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus
             blanditiis numquam ipsa! Earum at, distinctio in, consectetur vel
             molestias officia libero quidem, suscipit ut quae delectus eius
-            praesentium quaerat nostrum.
+            praesentium quaerat nostrum. Lorem ipsum dolor, sit amet consectetur
+            adipisicing elit. Possimus blanditiis numquam ipsa! Earum at,
+            distinctio in, consectetur vel molestias officia libero quidem,
+            suscipit ut quae delectus eius praesentium quaerat nostrum.
           </p>
         </div>
       </>
@@ -28,7 +31,10 @@ const Service = ({ direction, name, src }) => {
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus
             blanditiis numquam ipsa! Earum at, distinctio in, consectetur vel
             molestias officia libero quidem, suscipit ut quae delectus eius
-            praesentium quaerat nostrum.
+            praesentium quaerat nostrum. Lorem ipsum dolor, sit amet consectetur
+            adipisicing elit. Possimus blanditiis numquam ipsa! Earum at,
+            distinctio in, consectetur vel molestias officia libero quidem,
+            suscipit ut quae delectus eius praesentium quaerat nostrum.
           </p>
         </div>
         <Image fluid={src} className={ServiceStyle.image} />

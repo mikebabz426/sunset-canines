@@ -5,10 +5,10 @@ import Logo from "./Logo"
 import styled from "styled-components"
 
 const MobileIcon = styled.button`
-  @media (max-width: 768px) {
+  @media (max-width: 800px) {
     outline: none;
     position: fixed;
-    top: 2rem;
+    top: 2.2rem;
     right: 3rem;
     display: flex;
     flex-direction: column;
@@ -21,9 +21,9 @@ const MobileIcon = styled.button`
     z-index: 2;
   }
 
-  @media (max-width: 375px) {
+  @media (max-width: 450px) {
     position: fixed;
-    top: 2rem;
+    top: 1.75rem;
     right: 1.8rem;
   }
 
@@ -93,7 +93,7 @@ const MobileLinks = styled.nav`
 `
 
 const MenuLinks = styled.nav`
-  @media (max-width: 768px) {
+  @media (max-width: 800px) {
     display: none;
   }
 

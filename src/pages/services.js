@@ -10,33 +10,35 @@ const ServicesPage = ({ data }) => {
   return (
     <>
       <Layout contrast="dark">
-        <h1 className={ServicesStyles.heading}>
-          We offer a full spectrum of services
-        </h1>
-        {nodes.map((item, i) => {
-          let dir = i % 2 === 0 ? "left" : "right"
-          let name
-          if (item.name === "offleash") {
-            name = "Off Leash Training"
-          } else if (item.name === "sar") {
-            name = "Search and Rescue"
-          } else if (item.name === "tricks") {
-            name = "Tricks Training"
-          } else if (item.name === "belgian") {
-            name = "Belgian Malinois Breeding"
-          } else if (item.name === "servicedog") {
-            name = "Service Dog Training"
-          }
-          return (
-            <Service
-              name={name}
-              direction={dir}
-              src={item.childImageSharp.fluid}
-              key={i}
-            />
-          )
-        })}
-        <div className={ServicesStyles.showcase}>
+        <section className={ServicesStyles.main}>
+          <h1 className={ServicesStyles.heading}>
+            We offer a full spectrum of services
+          </h1>
+          {nodes.map((item, i) => {
+            let dir = i % 2 === 0 ? "left" : "right"
+            let name
+            if (item.name === "offleash") {
+              name = "Off Leash Training"
+            } else if (item.name === "sar") {
+              name = "Search and Rescue"
+            } else if (item.name === "tricks") {
+              name = "Tricks Training"
+            } else if (item.name === "belgian") {
+              name = "Belgian Malinois Breeding"
+            } else if (item.name === "servicedog") {
+              name = "Service Dog Training"
+            }
+            return (
+              <Service
+                name={name}
+                direction={dir}
+                src={item.childImageSharp.fluid}
+                key={i}
+              />
+            )
+          })}
+        </section>
+        <div className={ServicesStyles.map}>
           <h3>We travel around the country with clients all over the US</h3>
         </div>
         <section className={ServicesStyles.additional}>

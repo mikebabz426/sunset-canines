@@ -37,21 +37,13 @@ $secondaryColor: #ff3366;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
   .testimonial {
     width: 90vw;
   }
 }
 
-@media screen and (max-width: 415px) {
-  .testimonial {
-    flex-direction: column;
-    margin: 1rem auto;
-    padding: 0.5rem;
-  }
-}
-
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 450px) {
   .testimonial {
     flex-direction: column;
     margin: 1rem auto;
