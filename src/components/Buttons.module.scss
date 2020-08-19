@@ -17,6 +17,7 @@ $secondaryColor: #ff3366;
 
 .call-to-action:hover {
   cursor: pointer;
+  transition: transform 200ms ease-in;
   transform: translateX(-0.1rem) translateY(-0.1rem);
   background-color: #ff4170;
 }
@@ -35,6 +36,16 @@ $secondaryColor: #ff3366;
 
 .secondary-button:hover {
   cursor: pointer;
+  transition: transform 200ms ease-in;
   transform: translateX(0.1rem) translateY(-0.1rem);
   background-color: #ececec;
+}
+
+@media (max-width: 415px) {
+  .call-to-action {
+    font-size: 0.8rem;
+  }
+  .secondary-button {
+    font-size: 0.8rem;
+  }
 }

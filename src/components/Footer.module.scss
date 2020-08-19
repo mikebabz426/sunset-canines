@@ -47,13 +47,16 @@
 }
 .insta-icon:hover {
   cursor: pointer;
+  transition: transform 200ms ease-in;
   transform: translateY(-0.2rem) translateX(0.2rem);
 }
 .fb-icon:hover {
   cursor: pointer;
+  transition: transform 200ms ease-in;
   transform: translateY(-0.2rem) translateX(0.2rem);
 }
 .twi-icon:hover {
   cursor: pointer;
+  transition: transform 200ms ease-in;
   transform: translateY(-0.2rem) translateX(0.2rem);
 }

@@ -6,8 +6,28 @@
 }
 
 .testimonials h3 {
+  color: #333;
   margin-bottom: 4rem;
   font-size: 3rem;
   font-style: normal;
   font-weight: 300;
+}
+
+@media screen and (max-width: 415px) {
+  .testimonials {
+    padding: 1rem;
+  }
+  .testimonials h3 {
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+  }
+}
+@media screen and (max-width: 375px) {
+  .testimonials {
+    padding: 1rem;
+  }
+  .testimonials h3 {
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+  }
 }

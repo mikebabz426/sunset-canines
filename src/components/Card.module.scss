@@ -1,22 +1,64 @@
 .card {
-  text-align: center;
-  width: 300px;
-  height: 500px;
-  margin: 1rem auto;
-  font-size: 1.2rem;
-  line-height: 1.5rem;
   background-color: #f4f4f4;
-  padding: 2rem;
+  width: 20rem;
+  height: 28rem;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  margin: 1rem 2rem;
+  text-align: justify;
+  text-justify: newspaper;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  padding: 1.5rem;
   border-radius: 5px;
+  box-shadow: 0 16px 60px rgba(34, 34, 34, 0.2);
 }
 
 .card h2 {
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
+  text-align: center;
 }
 
 .icon {
   background-image: url("../icons/paws.svg");
-  margin: 3rem auto;
+  margin: 2rem auto;
   width: 4rem;
   height: 4rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .card {
+    width: 20rem;
+    height: 25rem;
+    margin: 1rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .icon {
+    margin: 1rem auto;
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .card h2 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+
+  .card p {
+    font-size: 0.9rem;
+  }
+
+  .card {
+    width: 26rem;
+    height: 22rem;
+    margin: 0.2rem;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  .card p {
+    font-size: 1rem;
+  }
 }

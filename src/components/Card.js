@@ -9,8 +9,7 @@ const Card = ({ head }) => {
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo est,
         voluptatibus totam accusamus repellendus at unde obcaecati sed velit
-        tenetur dicta cupiditate autem illum excepturi inventore magnam
-        repudiandae, enim ipsa?
+        tenetur dicta cupiditate autem illum excepturi.
       </p>
     </div>
   )

@@ -14,4 +14,16 @@
   background-size: contain;
   min-width: 225px;
   min-height: 100px;
+  margin-left: 3rem;
+}
+
+@media screen and (max-width: 415px) {
+  .dark-logo {
+    margin-left: 1rem;
+  }
+}
+@media screen and(max-width: 375px) {
+  .dark-logo {
+    margin-left: 1rem;
+  }
 }

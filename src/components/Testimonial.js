@@ -8,13 +8,13 @@ const Testimonial = ({ name, source }) => {
     <div className={TestimonialStyles.testimonial}>
       <Image className={TestimonialStyles.image} fluid={source} />
       <div className={TestimonialStyles.textContainer}>
-        <h4>
+        <p>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod aliquid
           illo eos eveniet assumenda esse. Odit, consequuntur quibusdam. Earum
           dicta, porro, ex, velit sequi reprehenderit neque debitis maxime
           ratione vitae facere magni illo. Mollitia minus inventore dolorum
           eveniet sed nulla.
-        </h4>
+        </p>
         <h5>
           - {name} - {date.toDateString()}
         </h5>

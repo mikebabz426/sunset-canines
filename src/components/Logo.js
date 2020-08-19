@@ -1,5 +1,6 @@
 import React from "react"
 import LogoStyles from "./Logo.module.scss"
+import { Link } from "gatsby"
 
 const Logo = ({ contrast }) => {
   let logoClass
@@ -8,7 +9,11 @@ const Logo = ({ contrast }) => {
   } else {
     logoClass = LogoStyles.darkLogo
   }
-  return <div className={logoClass}></div>
+  return (
+    <Link to="/">
+      <div className={logoClass}></div>
+    </Link>
+  )
 }
 
 export default Logo

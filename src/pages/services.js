@@ -15,7 +15,6 @@ const ServicesPage = ({ data }) => {
         </h1>
         {nodes.map((item, i) => {
           let dir = i % 2 === 0 ? "left" : "right"
-          console.log(dir)
           let name
           if (item.name === "offleash") {
             name = "Off Leash Training"
