@@ -67,15 +67,31 @@ $secondaryColor: #ff3366;
     padding-bottom: 0.5rem;
   }
 }
+
+@media screen and (orientation: landscape) and (max-width: 815px) and (max-height: 400px) {
+  .image {
+    width: 18rem;
+    height: 14rem;
+  }
+  .text-area {
+    width: 18rem;
+    height: 14rem;
+  }
+}
+
 @media screen and (max-width: 450px) {
   .service {
     flex-direction: column;
   }
   .image {
+    margin-top: 1rem;
     margin-bottom: 2rem;
+    width: 19rem;
+    height: 15rem;
   }
 
   .text-area {
     margin-bottom: 2rem;
+    width: 19rem;
   }
 }

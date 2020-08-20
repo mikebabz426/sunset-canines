@@ -66,11 +66,26 @@ $secondaryColor: #ff3366;
   }
 }
 @media screen and (max-width: 820px) {
+  .map {
+    background-attachment: scroll;
+  }
+
   .map h3 {
     padding-top: 3rem;
     font-size: 3rem;
     line-height: 4rem;
     color: #333;
+  }
+}
+
+//Target Mobile Landscape mode only
+@media screen and (orientation: landscape) and (max-width: 815px) and (max-height: 400px) {
+  .main {
+    margin-top: 20vh;
+  }
+
+  .heading {
+    margin: 3rem 1rem 0rem 1rem;
   }
 }
 
@@ -83,6 +98,7 @@ $secondaryColor: #ff3366;
   .map {
     height: 40vh;
     margin: 3rem auto;
+    background-attachment: scroll;
   }
   .map h3 {
     padding-top: 3rem;
