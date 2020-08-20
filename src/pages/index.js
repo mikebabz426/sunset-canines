@@ -8,10 +8,12 @@ import Button from "../components/Button"
 import SecondaryButton from "../components/SecondaryButton"
 import Card from "../components/Card"
 import TestimonialContainer from "./../components/TestimonialContainer"
+import Seo from "../components/Seo"
 
 const HomePage = ({ data }) => {
   return (
     <>
+      <Seo title="Sunset Canines | Home" />
       <Header />
       <BackgroundImage
         className="hero"

@@ -1,5 +1,12 @@
 // Plugin Configuration File
 module.exports = {
+  siteMetadata: {
+    title: "Sunset Canines",
+    description:
+      "Main website for Sunset Canines, proffessional dog trainers, built with Gatsby",
+    url: "http://sunsetcanines.com",
+    author: "Mike Babetchki",
+  },
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
@@ -26,5 +33,6 @@ module.exports = {
     "gatsby-plugin-sharp",
     "gatsby-transformer-sharp",
     "gatsby-plugin-styled-components",
+    "gatsby-plugin-react-helmet",
   ],
 }

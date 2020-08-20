@@ -1,10 +1,12 @@
 import React from "react"
 import Layout from "../components/Layout"
 import ContactStyles from "../styles/Contact.module.scss"
+import Seo from "../components/Seo"
 
 const ContactPage = () => {
   return (
     <>
+      <Seo title="Sunset Canines | Contact" />
       <Layout contrast="dark">
         <section className={ContactStyles.contactContainer}>
           <div className={ContactStyles.contactForm}>

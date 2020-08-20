@@ -2,12 +2,15 @@ import React from "react"
 import Layout from "../components/Layout"
 import AboutStyles from "../styles/About.module.scss"
 import Image from "gatsby-image"
+import { graphql } from "gatsby"
+import Seo from "../components/Seo"
 
 const AboutPage = ({ data }) => {
   const source = data.allFile.nodes[0].childImageSharp.fluid
 
   return (
     <>
+      <Seo title="Sunset Canines | About" />
       <Layout contrast="dark">
         <section className={AboutStyles.main}>
           <div className={AboutStyles.container}>

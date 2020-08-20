@@ -3,12 +3,15 @@ import Layout from "../components/Layout"
 import Service from "../components/Service"
 import ServicesStyles from "../styles/Services.module.scss"
 import Card from "../components/Card"
+import { graphql } from "gatsby"
+import Seo from "../components/Seo"
 
 const ServicesPage = ({ data }) => {
   const { nodes } = data.allFile
 
   return (
     <>
+      <Seo title="Sunset Canines | Services" />
       <Layout contrast="dark">
         <section className={ServicesStyles.main}>
           <h1 className={ServicesStyles.heading}>
