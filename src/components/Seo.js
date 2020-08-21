@@ -32,10 +32,6 @@ const Seo = ({ description, title, author }) => {
           content: metaAuthor,
         },
         {
-          name: `url`,
-          content: metaUrl,
-        },
-        {
           property: `og:title`,
           content: metaTitle,
         },
