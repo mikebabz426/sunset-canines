@@ -16,6 +16,7 @@ const HomePage = ({ data }) => {
       <Seo title="Sunset Canines | Home" />
       <Header />
       <BackgroundImage
+        id="hero"
         className="hero"
         fluid={data.allFile.nodes[0].childImageSharp.fluid}
       >
@@ -50,6 +51,7 @@ const HomePage = ({ data }) => {
         </section>
         {/* Showcase end */}
         <BackgroundImage
+          id="dogbg"
           className="dog-background"
           fluid={data.allFile.nodes[3].childImageSharp.fluid}
         ></BackgroundImage>
